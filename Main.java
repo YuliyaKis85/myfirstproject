@@ -1,12 +1,7 @@
-
 import java.util.Arrays;
-
-      class Main {
-       public static void main(String[] args) {
-
-
-
-        int [] arr = {1,2,3};
+class Main {
+       public static void main(String[] args) 
+ int [] arr = {1,2,3};
         try {
             System.out.println(arr[4]);
         } catch(ArrayIndexOutOfBoundsException e)     {
@@ -14,17 +9,5 @@ import java.util.Arrays;
                     "The array only has 3 values and you've requested a 4th");
         }
 
-
-
-
-
     }
 }
-
-
-
-
-
-
-
-
